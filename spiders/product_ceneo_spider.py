@@ -1,7 +1,6 @@
 import scrapy
-import re
-from tutorial.items import ProductItem
-from scrapy.selector import Selector
+from items import ProductItem
+
 
 class ProductCeneoSpider(scrapy.Spider):
     name = "product_ceneo"
