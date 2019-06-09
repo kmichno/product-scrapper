@@ -5,14 +5,6 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
-
-
-class TutorialItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-
 from scrapy.item import Item, Field
 
 
@@ -22,3 +14,4 @@ class ProductItem(Item):
     image_url = Field()
     description = Field()
     price = Field()
+    task_id = Field()
