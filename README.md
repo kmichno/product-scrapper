@@ -1,8 +1,9 @@
 # product-scrapper
 
-Program można uruchomić komendą:
+Programy można uruchomić komendą:
 ```
 scrapy crawl product_ceneo -a phrase="Brother" -a task_id="1"
+scrapy crawl product_allegro -a phrase="Brother" -a task_id="1"
 ```
 Jako pierwszy argument podajemy jakąś nazwę produktu jakiego poszukujemy, a jako drugi identyfikator zadania.
 
