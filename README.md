@@ -2,6 +2,10 @@
 
 Programy można uruchomić komendą:
 ```
+python3 go-spider.py phrase task_id
+```
+lub
+```
 scrapy crawl product_ceneo -a phrase="Brother" -a task_id="1"
 scrapy crawl product_allegro -a phrase="Brother" -a task_id="1"
 ```
